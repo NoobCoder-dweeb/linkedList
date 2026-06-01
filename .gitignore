@@ -1,0 +1,5 @@
+# remove object files and executables
+*.out
+*.o
+*.obj
+*exe*
