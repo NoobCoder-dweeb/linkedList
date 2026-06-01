@@ -10,7 +10,11 @@ typedef struct Node {
     struct Node* next;
 } Node;
 
+// size counter
+static int size = 0;
+
 // function prototypes for the linked list operations
+int isEmpty(const Node* head);
 void displayList(const Node* head);
 void insertNode(Node** head, int data);
 void deleteNodeHead(Node** head);
